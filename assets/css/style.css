@@ -1,0 +1,178 @@
+
+/* heading styling for time and view scores button */
+.head {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+}
+/* scores link */
+.scores a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+/* scores link */
+.scores a:visited {
+    color: black;
+}
+/* timer styling */
+.timer {
+    font-size: large;
+    font-weight: 600;
+}
+/* opening page display styling */
+.home-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.home-screen p {
+    
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+/* start button */
+#start {
+    padding: 1rem 3rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* hide class for elements */
+.hide {
+    display: none;
+}
+/* submit button */
+#submit {
+    padding: 0.25rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+/* last page showing scores styling */
+.scores-wrapper {
+    text-align: center;
+}
+/* go back button for scores */
+.scores-wrapper a button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+/* clear high scores button for scores */
+.scores-wrapper button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+/* hiding home page */
+.homeEl {
+    display: none;
+}
+/* questions display styling */
+.questionsEl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* chioces buttons styling */
+.choiceBtn {
+    display: block;
+    width: 100%; 
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.5rem; 
+    text-align: center; 
+    background-color: #a0c9f5;
+    border: 0.25rem solid #a0c9f5;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+/* feedback report for each questions styling */
+#report {
+    display: block;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+/* initials saving page and score */
+.show {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.show p {
+    font-size: larger;
+    font-weight: 500;
+}
+
+/* Style for the high scores wrapper */
+.scores-wrapper {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style for the high scores title */
+.scores-wrapper h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#highscores {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* scores listing */
+#highscores li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* scores listing */
+#highscores li:nth-child(odd) {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* scores listing */
+#highscores li span {
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+}
